@@ -1,0 +1,44 @@
+.flex_container {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+.flex_item {
+    color: white;
+    flex: 1;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    flex: 4;
+    border: 1px solid white;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .imgFloatRight{
+        display: none;
+    }
+}
+
+.imgFloatRight{
+    float: right;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: lightgreen;
+}
+
+p {
+    font-size: x-large;
+}
